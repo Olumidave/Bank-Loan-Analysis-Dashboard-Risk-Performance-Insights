@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Business Context & Objectives](#-business-context--objectives)
 - [Data Sources & Preparation](#-data-sources--preparation)
@@ -23,7 +23,7 @@
 
 ---
 
-## 🧩 Business Context & Objectives
+## Business Context & Objectives
 
 ### The Business Problem
 Banks and lending institutions face a critical challenge — understanding which loans will perform and which will default. Without a structured analytical framework, risk teams operate reactively, approving loans based on incomplete information and discovering problems only after charge-offs have already occurred.
@@ -89,7 +89,7 @@ WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n', FIRSTROW = 2);
 
 ---
 
-## 🔬 Analytical Methodology & Approach
+## Analytical Methodology & Approach
 
 ### The SQL-to-BI Pipeline
 This project follows a structured end-to-end analytics pipeline:
@@ -125,7 +125,7 @@ Loans were classified into two categories based on status:
 
 ---
 
-## 📊 Dashboard Pages
+## Dashboard Pages
 
 ### Page 1 — Summary
 The executive risk overview. Displays total portfolio KPIs, MTD/MoM variance metrics, good vs bad loan split with donut charts, and the full loan status breakdown table showing funded amounts, amounts received, and average rates by status.
@@ -148,15 +148,15 @@ The granular transaction-level view. A fully filterable table showing individual
 
 | Metric | Value | MTD | MoM Change |
 |---|---|---|---|
-| 📋 Total Loan Applications | 38,576 | 4,300 | +6.9% |
-| 💰 Total Funded Amount | $435.8M | $54.0M | +13.0% |
-| 💵 Total Amount Received | $473.1M | $58.1M | +15.8% |
-| 📈 Average Interest Rate | 12.0% | 12.4% | +3.5% |
-| 📊 Average DTI | 13.3% | 13.7% | +2.7% |
+| Total Loan Applications | 38,576 | 4,300 | +6.9% |
+| Total Funded Amount | $435.8M | $54.0M | +13.0% |
+| Total Amount Received | $473.1M | $58.1M | +15.8% |
+| Average Interest Rate | 12.0% | 12.4% | +3.5% |
+| Average DTI | 13.3% | 13.7% | +2.7% |
 
 ---
 
-## 🔍 Key Insights & Findings
+## Key Insights & Findings
 
 ### 1. The Portfolio is Generating More Than It Lends
 Total Amount Received ($473.1M) exceeds Total Funded Amount ($435.8M) by **$37.3M (8.6%)** — driven by interest income. This over-recovery on performing loans is a strong indicator of portfolio profitability on the good loan segment.
@@ -178,7 +178,7 @@ The preference for shorter loan terms (36 months vs 60 months) is a positive por
 
 ---
 
-## ⚖️ Good vs Bad Loan Analysis
+## Good vs Bad Loan Analysis
 
 | Metric | Good Loans | Bad Loans |
 |---|---|---|
@@ -194,7 +194,7 @@ The preference for shorter loan terms (36 months vs 60 months) is a positive por
 
 ---
 
-## 👤 Borrower Profile Analysis
+## Borrower Profile Analysis
 
 ### By Loan Purpose
 
@@ -228,24 +228,24 @@ The preference for shorter loan terms (36 months vs 60 months) is a positive por
 
 ## 💡 Business Recommendations
 
-### 1. 🔍 Tighten Underwriting for Short-Tenure Applicants
+### 1. Tighten Underwriting for Short-Tenure Applicants
 Borrowers with less than 1 year of employment show significantly higher charge-off rates. Introducing an additional verification step — such as requiring 6 months of bank statements or a co-signer — for applicants with under 1 year of employment could reduce bad loan intake by an estimated 10–15%.
 
-### 2. 📊 Introduce DTI Hard Caps by Loan Purpose
+### 2. Introduce DTI Hard Caps by Loan Purpose
 Small business loans show higher default rates despite similar DTI profiles to other categories. Introducing a purpose-specific DTI cap (e.g., max 12% DTI for small business loans vs the current portfolio average of 13.3%) would add a targeted risk filter without broadly restricting lending.
 
-### 3. 💰 Prioritize Retention of Fully Paid Borrowers
+### 3. Prioritize Retention of Fully Paid Borrowers
 The 32,145 fully paid borrowers represent the most valuable customer segment — proven low-risk with demonstrated repayment capability. A proactive refinancing or loyalty offer campaign targeting these customers for repeat loans would increase volume while maintaining portfolio quality.
 
-### 4. 🗺️ Geo-Target Risk Management by State
+### 4. Geo-Target Risk Management by State
 The geographic map reveals concentration in California and Texas. If these states show higher-than-average charge-off rates in detailed analysis, state-specific credit policy adjustments (stricter DTI requirements or lower maximum loan amounts) should be applied.
 
-### 5. ⚠️ Monitor the Rising Interest Rate Trend
+### 5. Monitor the Rising Interest Rate Trend
 The 3.5% MoM increase in average interest rate warrants close monitoring. If this trend continues for 2–3 more months, the portfolio should be stress-tested for its sensitivity to rate increases — particularly among current borrowers on variable terms.
 
 ---
 
-## 🔄 Implementation, Monitoring & Next Steps
+## Implementation, Monitoring & Next Steps
 
 ### Current Implementation
 This dashboard is designed for monthly reporting cycles. The SQL queries are structured to support automated refresh — the MTD filters (WHERE MONTH(issue_date) = current month) update dynamically as new data is added to the source table.
@@ -279,7 +279,7 @@ This dashboard is designed for monthly reporting cycles. The SQL queries are str
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|

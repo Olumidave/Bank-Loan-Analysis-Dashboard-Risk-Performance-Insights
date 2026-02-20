@@ -386,7 +386,7 @@ GROUP BY loan_status;
 ## 👤 Author
 
 **Faleye Olumide David**
-Data Analyst | Power BI Developer | Business Intelligence Analyst
+Data Analyst | Power BI Risk Performance Analysis | Business Intelligence Analyst
 
 📍 Nigeria
 🔗 [LinkedIn](https://www.linkedin.com/in/olumide-david-79b17726a/)

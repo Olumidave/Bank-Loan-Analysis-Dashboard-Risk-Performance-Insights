@@ -130,17 +130,20 @@ Loans were classified into two categories based on status:
 ### Page 1 — Summary
 The executive risk overview. Displays total portfolio KPIs, MTD/MoM variance metrics, good vs bad loan split with donut charts, and the full loan status breakdown table showing funded amounts, amounts received, and average rates by status.
 
-![Summary Dashboard](Summary.png)
+![Summary](Summary.png)
 
 ### Page 2 — Overview
 The trend and segmentation analysis page. Features monthly application trends, state-level geographic distribution, loan term split, employment length distribution, loan purpose breakdown, and home ownership analysis — all filterable by state, grade, and purpose.
 
-![Overview Dashboard](Overview.png)
+![Loan Overview](Loan%20Overview.png)
+
 
 ### Page 3 — Details
 The granular transaction-level view. A fully filterable table showing individual loan records with all fields — enabling drill-through from any KPI card to the specific loans driving that metric.
 
-![Details Dashboard](Details.png)
+![Details](Details.png)
+
+
 
 ---
 

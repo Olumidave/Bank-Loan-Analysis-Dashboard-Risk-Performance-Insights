@@ -393,6 +393,7 @@ Data Analyst | Power BI Risk Performance Analysis | Business Intelligence Analys
 
 📍 Nigeria
 🔗 [LinkedIn](https://www.linkedin.com/in/olumide-david-79b17726a/)
+    Report link - https://app.powerbi.com/view?r=eyJrIjoiY2VjODg3NjAtOTFjOS00NjdhLWI4Y2ItNDUyMzIyZjFkNzU1IiwidCI6IjIxZjFhZWYwLTc3MDUtNDRkYS1hYzk4LTA0NDUwOGE0YmYyYyJ9
 🌐 Portfolio: *datascienceportfol.io* (coming soon)
 
 ---
